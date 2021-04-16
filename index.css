@@ -312,9 +312,8 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: center;
     align-items: center;
     height: 5.5rem;
-    width: 5.5rem;
-    background-color: var(--pink);
-    border-radius: 50%;
+    width: 7rem;
+    background-color: rgba(9, 144, 158, 0.7);
     z-index: 10;
     visibility: hidden;
     transition: all .4s;
@@ -410,7 +409,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(90,0,50, .001), rgba(100,0,50, .05)),
+    background: linear-gradient(rgba(90,0,50, .0), rgba(100,0,50, .05)),
         url('./images/header.png');
     height: 100vh;
     background-size: cover;
