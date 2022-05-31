@@ -41,7 +41,7 @@
     --white-1: #000;
     --white-2: #f0e9f2;
     --white-3: #e5e5e6da;
-
+    --green: rgba(255, 0, 212, 0.075);
 
 
     --container-max-width: 1180px;
@@ -272,6 +272,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn--pink {
     background: var(--pink);
+    transition: all 0.2s;
+}
+
+.btn--green {
+    background: var(--green);
     transition: all 0.2s;
 }
 

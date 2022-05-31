@@ -9,20 +9,20 @@
 
     <!-- Put your site title here -->
     <title>
-        Estefano Muñoz-Moya | M.Sc. Mechanical Engineer.
+        Estefano Muñoz-Moya | Ph.D. student & ESR MSCA
     </title>
 
     <meta name="description" content="Add small description of yourslef.">
     <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
     <meta name="keywords" content="Put your name, skills and some coding keywords" />
-    <link rel="stylesheet" href="publications.css" />
+    <link rel="stylesheet" href="file.css" />
 </head>
 
 <body>
 
     <!-- ***** Header ***** -->
 
-    <header class="header" role="banner" id="top">
+    <header class="header_pub" role="banner" id="top">
         <div class="row">
             <nav class="nav" role="navigation">
                 <ul class="nav__items">
@@ -44,8 +44,8 @@
                 </h1>
                 <!-- Put a small paragraph about yourself -->
                 <p> </p>
-                <p>M.Sc. Mechanical Engineer.</p>
-                <p>Biomechanical and Biomaterials Researcher.</p>
+                <p>Ph.D. student & ESR marie Skłodowska-Curie Actions</p>
+                <p>Biomechanical and Biomaterials Researcher</p>
                 <a href="#publications" class="btn btn--pink">publications</a>
                 <a href="#thesis" class="btn btn--pink">thesis</a>
             </div>
@@ -54,64 +54,156 @@
 
     <main role="main">
 
-        <!-- ***** About ***** -->
+        <!-- ***** Publications ***** -->
 
         <section class="publications" id="publications">
             <div class="row">
-                <h2>accepted | under review | in progress</h2>
+                <h2>publications</h2>
+                you can find my publications in scientific journals in my Google Scholar profile <a href="https://scholar.google.com/citations?user=eT1mgk0AAAAJ&hl" target="_blank">
+                    <img src="./images/googleScholar.svg" style="width:2%" title=" Link to GoogleScholar Profile" class="footer__social-image"
+                        alt="GoogleScholar"> or below:
+                <p></p>
+                <body>
+                    <div id="jquery-script-menu">
+                        <div class="jquery-script-center">
+                            <div id="carbon-block"></div>
+                            <div class="jquery-script-ads">
+                                <script type="text/javascript">< !--
+                                        google_ad_client = "ca-pub-2783044520727903";
+                                    /* jQuery_demo */
+                                    google_ad_slot = "2780937993";
+                                    google_ad_width = 728;
+                                    google_ad_height = 90;
+                                </script>
+                                <script type="text/javascript"
+                                    src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                    </script>
+                            </div>
+                            <div class="jquery-script-clear"></div>
+                        </div>
+                    </div>
+                    <!-- Table start -->
+                    <table class="tablemanager">
+                        <thead>
+                            <tr>
+                                <th>doi</th>
+                                <th>Date</th>
+                                <th>Pub</th>
+                                <th>Journal</th>
+                                <th>Project</th>
+                                <th>Thesis</th>
+                                <th>Author</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="prova"><a href="https://doi.org/10.3389/fbioe.2021.813537" class="btn--pink"
+                                        target="_blank">10.3389/fbioe.2021.813537</a></td>
+                                <td class="prova">20/01/2022</td>
+                                <td class="prova">Frontiers</td>
+                                <td class="prova">Bioengineering and Biotechnology</td>
+                                <td class="prova"><a href="http://estefano23.github.io/work.html#projects_CarboNatLab"
+                                        class="btn--pink" target="_blank">CarboNatLab</a></td>
+                                <td class="prova"><a href="http://estefano23.github.io/publications.html#thesis_master" class="btn--pink" target="_blank">MasterThesis</a></td>
+                                <td class="prova">CoAuthor</td>
+                                <td class="prova">Biomechanical Characterization of Scallop Shells Exposed to Ocean
+                                    Acidification and Warming</td>
+                            </tr>
+                            <tr>
+                                <td class="prova"><a href="https://doi.org/10.1038/s41598-021-04414-1" class="btn--pink"
+                                        target="_blank">10.1038/s41598-021-04414-1</a></td>
+                                <td class="prova">13/01/2022</td>
+                                <td class="prova">Nature</td>
+                                <td class="prova">Scientific Reports</td>
+                                <td class="prova"><a href="http://estefano23.github.io/work.html#projects_CarboNatLab"
+                                        class="btn--pink" target="_blank">CarboNatLab</a></td>
+                                <td class="prova"><a href="http://estefano23.github.io/publications.html#thesis_master" class="btn--pink" target="_blank">MasterThesis</a></td>
+                                <td class="prova">FirstAuthor</td>
+                                <td class="prova">Evaluation of remodeling and geometry on the biomechanical properties
+                                    of nacreous bivalve shells</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- External jQuery -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                    <!-- <script type="text/javascript" src="./js/jquery-1.12.3.min.js"></script> -->
+                    <script type="text/javascript" src="./tableManager.js"></script>
+                    <script type="text/javascript">
+                        // basic usage
+                        $('.tablemanager').tablemanager({
+                            firstSort: [[3, 0], [2, 0], [1, 'asc']],
+                            disable: ["last"],
+                            appendFilterby: true,
+                            dateFormat: [[4, "mm/dd/yyyy"]],
+                            debug: true,
+                            vocabulary: {
+                                voc_filter_by: 'Filter By',
+                                voc_type_here_filter: 'Filter...',
+                                voc_show_rows: 'Rows Per Page'
+                            },
+                            pagination: true,
+                            showrows: [5, 10, 20, 50, 100],
+                            disableFilterBy: [1]
+                        });
+                        // $('.tablemanager').tablemanager();
+                    </script>
+                    <script>
+                        try {
+                            fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+                                return true;
+                            }).catch(function (e) {
+                                var carbonScript = document.createElement("script");
+                                carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+                                carbonScript.id = "_carbonads_js";
+                                document.getElementById("carbon-block").appendChild(carbonScript);
+                            });
+                        } catch (error) {
+                            console.log(error);
+                        }
+                    </script>
+                    <script type="text/javascript">
 
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                <ul>
-                    <b>&#128221; first author | under review | Materials Science and Engineering: C</b>
-                    <li><b>Estefano Muñoz-Moya</b>, Aldo Abarca-Ortega, Claudio M. García-Herrera, Nelson A. Lagos, Antonio G. Checa, Elizabeth M. Harper. Biomechanical behavior of the <i>Perumytilus purpuratus</i> shell: symmetry, homogeneity, and
-                        remodeling of the mechanical properties. 2021.</li>
-                    <a href="publications/publications/Biomechanical behavior of the Perumytilus purpuratus shell: symmetry, homogeneity, and remodeling of the mechanical properties/emunoz-moya2021_PREPRINT.pdf" class="btn--pink" target="_blank">PDF
-                        preprint</a>
-                </ul>
-                </p>
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-36251023-1']);
+                        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+                        _gaq.push(['_trackPageview']);
 
-                <p>
-                <ul>
-                    <b>&#128221; second author | under review | PLoS ONE</b>
-                    <li>Aldo Abarca-Ortega, <b>Estefano Muñoz-Moya</b>, Matías Pacheco-Alarcón, Claudio M. García-Herrera, Diego J. Celentano, Nelson A. Lagos, Marco A. Lardies. Biomechanical characterization of scallop shells exposed to ocean
-                        acidification and warming. <b>PLoS ONE</b>. 2021.</li>
-                    <a href="publications/publications/Biomechanical characterization of scallop shells exposed to ocean acidification and warming/aabarca2021_PREPRINT.pdf" class="btn--pink" target="_blank">PDF preprint</a>
-                </ul>
-                </p>
+                        (function () {
+                            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
 
-                <p>
-                <ul>
-                    <b>&#128221; first author | in progress</b>
-                    <li><b>Estefano Muñoz-Moya</b>, Matías Pacheco-Alarcón, Claudio M. García-Herrera, Aldo Abarca-Ortega, Nelson A. Lagos, Antonio G. Checa. Numerical simulation of <i>Perumytilus purpuratus</i> shell strength under predation attacks
-                        using finite element analysis. 2021.</li>
-                </ul>
-                </p>
-
-
+                    </script>
+                </body>
             </div>
         </section>
+
 
         <section class="thesis" id="thesis">
-            <div class="row">
-                <h2>thesis</h2>
+            <subsection class="thesis_master" id="thesis_master">
+                <div class="row">
+                    <h2>thesis</h2>
 
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                <ul>
-                    <b>&#128221; M.Sc. Thesis | University of Santiago de Chile (USACH)</b>
-                    <li><b>Estefano Muñoz-Moya</b>. Caracterización de la biomecánica del crecimiento y remodelación del <i>Perumytilus purpuratus</i> cultivados en condiciones de crecimiento natural. <b>USACH</b>. 2020.</li>
-                    <a href="publications/thesis/master/Estefano_Munoz_tesis.pdf" class="btn--pink" target="_blank">PDF Spanish</a> |
-                    <a href="publications/thesis/master/Estefano_Munoz_dissertation_Spanish.pdf" class="btn--pink" target="_blank">Dissertation Spanish</a>
-                </ul>
-                </p>
-
-            </div>
+                    <!-- Replace the below paragraph with info about yourself -->
+                    <p>
+                    <ul>
+                        <b>&#128221; M.Sc. Thesis | University of Santiago de Chile (USACH)</b>
+                        <li><b>Estefano Muñoz-Moya</b>. Caracterización de la biomecánica del crecimiento y remodelación del
+                            <i>Perumytilus purpuratus</i> cultivados en condiciones de crecimiento natural. <b>USACH</b>.
+                            2020.
+                        </li>
+                        <a href="publications/thesis/master/Estefano_Munoz_tesis.pdf" class="btn--pink" target="_blank">PDF
+                            Spanish</a> |
+                        <a href="publications/thesis/master/Estefano_Munoz_dissertation_Spanish.pdf" class="btn--pink"
+                            target="_blank">Dissertation Spanish</a>
+                    </ul>
+                    </p>
+                </div>
+            </subsection>
         </section>
     </main>
-
-
-
 
 
 
@@ -122,7 +214,15 @@
             <!-- Update the links to point to your accounts -->
             <ul class="footer__social-links">
                 <li class="footer__social-link-item">
-                    <a href="https://www.researchgate.net/profile/Estefano-Munoz-Moya" title="Link to ResearchGate Profile" target="_blank">
+                    <a href="https://scholar.google.com/citations?user=eT1mgk0AAAAJ&hl" title="Link to GoogleScholar Profile"
+                        target="_blank">
+                        <img src="./images/googleScholar.svg" class="footer__social-image" alt="GoogleScholar">
+                    </a>
+                </li>
+
+                <li class="footer__social-link-item">
+                    <a href="https://www.researchgate.net/profile/Estefano-Munoz-Moya"
+                        title="Link to ResearchGate Profile" target="_blank">
                         <img src="./images/researchgate.svg" class="footer__social-image" alt="ResearchGate">
                     </a>
                 </li>
@@ -138,7 +238,8 @@
                 </li>
                 <li class="footer__social-link-item">
                     <a href="https://www.linkedin.com/in/estefano-munoz-moya/" target="_blank">
-                        <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                        <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+                            alt="Linkedin">
                     </a>
                 </li>
             </ul>
@@ -151,7 +252,9 @@
                 &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
             </p>
             <div class="footer__github-buttons">
-                <iframe src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true" frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+                <iframe
+                    src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+                    frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
                 </iframe>
             </div>
         </div>

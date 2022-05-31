@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   fill="#e5e5e6"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg864"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <svg:metadata
+     id="metadata870">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ionicons-v5_logos</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:defs
+     id="defs868" />
+  <link
+     type="text/css"
+     id="dark-mode"
+     rel="stylesheet"
+     href="" />
+  <style
+     type="text/css"
+     id="dark-mode-custom-style" />
+  <svg:title
+     id="title860">ionicons-v5_logos</svg:title>
+  <svg:g
+     id="g2112"
+     transform="matrix(2.1081014,0,0,2.1081014,8.6501384,81.729675)">
+    <svg:path
+       d="M 229.763,25.817 C 227.064,15.655 219.113,7.652 209.015,4.936 190.716,0 117.333,0 117.333,0 117.333,0 43.951,0 25.651,4.936 15.553,7.652 7.6,15.655 4.903,25.817 0,44.236 0,82.667 0,82.667 c 0,0 0,38.429 4.903,56.85 2.697,10.163 10.65,18.164 20.747,20.883 18.3,4.934 91.682,4.934 91.682,4.934 0,0 73.383,0 91.682,-4.934 10.098,-2.718 18.049,-10.72 20.748,-20.882 4.904,-18.421 4.904,-56.85 4.904,-56.85 0,0 0,-38.431 -4.904,-56.85"
+       fill="red"
+       id="path1620"
+       style="fill:#000000;fill-opacity:1" />
+    <svg:path
+       d="M 93.333,117.559 154.666,82.669 93.333,47.775 Z"
+       fill="#ffffff"
+       id="path1622" />
+  </svg:g>
+</svg:svg>
