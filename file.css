@@ -697,16 +697,16 @@ table {
 table,
 th,
 td {
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid rgba(187, 187, 187, 0.192);
     text-align: left;   
 }
 
 tr:nth-child(even) {
-    background-color: #015d6415;
+    background-color: #008cff13;
 }
 
 th {
-    background-color: rgba(0, 4, 221, 0.089);
+    background-color: rgba(1, 136, 127, 0.082);
 }
 
 th,
