@@ -650,6 +650,10 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: var(--gutter-small);
 }
 
+.initial__social-image {
+    height: 8rem;
+}
+
 .footer__social-image {
     height: 4rem;
 }
