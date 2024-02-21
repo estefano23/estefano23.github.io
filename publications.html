@@ -114,13 +114,25 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="prova"><a href="https://doi.org/10.3389/fcell.2022.924692" class="btn--pink"
-                                        target="_blank">10.3389/fcell.2022.924692</a></td>
-                                <td class="prova">07/06/2022</td>
-                                <td class="prova">Frontiers</td>
-                                <td class="prova">in Cell and Developmental Biology</td>
+                                <td class="prova"><a href="https://doi.org/10.1002/jsp2.1294" class="btn--pink"
+                                        target="_blank">10.1002/jsp2.1294</a></td>
+                                <td class="prova">21/10/2023</td>
+                                <td class="prova">ORS</td>
+                                <td class="prova">JOR Spine</td>
                                 <td class="prova"><a href="http://estefano23.github.io/work.html#projects_Disc4All"
                                         class="btn--pink" target="_blank">Disc4All</a></td>
+                                <td class="prova"><a href="#thesis_phd" class="btn--pink">PhDThesis</a></td>
+                                <td class="prova">CoAuthor</td>
+                                <td class="prova">Cartilaginous endplates: A comprehensive review on a neglected structure in intervertebral disc research</td>
+                            </tr>
+                            <tr>
+                                <td class="prova"><a href="https://doi.org/10.3389/fcell.2022.924692" class="btn--pink"
+                                        target="_blank">10.3389/fcell.2022.924692</a></td>
+                                <td class="prova">29/06/2022</td>
+                                <td class="prova">Frontiers</td>
+                                <td class="prova">Cell and Developmental Biology</td>
+                                <td class="prova"><a href="http://estefano23.github.io/work.html#projects_Disc4All" class="btn--pink"
+                                        target="_blank">Disc4All</a></td>
                                 <td class="prova"><a href="#thesis_phd" class="btn--pink">PhDThesis</a></td>
                                 <td class="prova">CoAuthor</td>
                                 <td class="prova">Immuno-Modulatory Effects of Intervertebral Disc Cells</td>
@@ -160,10 +172,10 @@
                     <script type="text/javascript">
                         // basic usage
                         $('.tablemanager').tablemanager({
-                            firstSort: [[3, 0], [2, 0], [1, 'asc']],
+                            firstSort: [[0, 1]], // Sort by the second column (date) in descending order (1)
                             disable: ["last"],
                             appendFilterby: true,
-                            dateFormat: [[4, "mm/dd/yyyy"]],
+                            dateFormat: [[1, "dd/mm/yyyy"]], // Correct date format
                             debug: true,
                             vocabulary: {
                                 voc_filter_by: 'Filter By',
@@ -176,6 +188,7 @@
                         });
                         // $('.tablemanager').tablemanager();
                     </script>
+
                     <script>
                         try {
                             fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
