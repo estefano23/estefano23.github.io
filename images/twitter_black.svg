@@ -4,36 +4,48 @@
    viewBox="0 0 512 512"
    version="1.1"
    id="svg864"
+   sodipodi:docname="twitter_black.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <svg:metadata
-     id="metadata870">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>ionicons-v5_logos</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </svg:metadata>
-  <svg:defs
-     id="defs868" />
-  <link
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><svg:metadata
+     id="metadata870"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>ionicons-v5_logos</dc:title></cc:Work></rdf:RDF></svg:metadata><svg:defs
+     id="defs868" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     id="namedview866"
+     showgrid="false"
+     inkscape:zoom="0.84472659"
+     inkscape:cx="396.57802"
+     inkscape:cy="332.06011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg864"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050" /><link
      type="text/css"
      id="dark-mode"
      rel="stylesheet"
-     href="" />
-  <style
+     href="" /><style
      type="text/css"
-     id="dark-mode-custom-style" />
-  <svg:title
-     id="title860">ionicons-v5_logos</svg:title>
-  <svg:path
-     d="m 496,109.49966 a 201.8,201.8 0 0 1 -56.55,15.3 97.51,97.51 0 0 0 43.33,-53.599997 197.74,197.74 0 0 1 -62.56,23.5 99.14,99.14 0 0 0 -71.91,-30.7 c -54.42,0 -98.46,43.399997 -98.46,96.899997 a 93.21,93.21 0 0 0 2.54,22.1 A 280.7,280.7 0 0 1 49.39,81.699663 95.69,95.69 0 0 0 36,130.39966 c 0,33.6 17.53,63.3 44,80.7 a 97.5,97.5 0 0 1 -44.78,-12.1 v 1.2 c 0,47 34,86.1 79,95 a 100.76,100.76 0 0 1 -25.94,3.4 94.38,94.38 0 0 1 -18.51,-1.8 c 12.51,38.5 48.92,66.5 92.05,67.3 a 199.59,199.59 0 0 1 -122.32,41.5 203,203 0 0 1 -23.5,-1.4 278.68,278.68 0 0 0 150.74,43.8 c 181.36,0 280.44,-147.7 280.44,-275.8 0,-4.2 -0.11,-8.4 -0.31,-12.5 a 198.48,198.48 0 0 0 49.13,-50.2 z"
-     id="path183"
-     style="fill:#000000;fill-opacity:1" />
-</svg:svg>
+     id="dark-mode-custom-style" /><svg:title
+     id="title860">ionicons-v5_logos</svg:title><svg:path
+     style="fill:#000000;fill-opacity:1;stroke-width:5.78223"
+     d="M 230.96861,481.9684 C 147.96568,472.67373 75.30987,417.00147 44.54168,339.12146 31.99599,307.3687 26.43986,269.34647 29.59262,236.83362 35.02791,180.77507 56.82682,133.93393 95.55769,95.083519 128.2979,62.243157 169.81217,40.430923 216.43486,31.578156 c 20.02006,-3.800751 59.53353,-3.800751 79.55418,0 31.93835,6.065627 59.83207,17.452187 86.87775,35.460635 51.38127,34.218539 85.52467,86.556779 97.68007,149.737739 3.636,18.89215 3.636,59.12685 0,78.02212 -13.6507,70.95226 -54.7336,127.63502 -117.24273,161.77007 -38.23307,20.87596 -87.78499,30.39006 -132.33552,25.39968 z M 187.3457,338.32729 c 37.49301,-40.56844 48.49114,-51.62134 49.70864,-49.97739 0.85902,1.17417 18.42212,24.60861 39.02777,52.09093 l 37.46399,49.97747 h 42.47274 c 32.98134,0 42.46285,-0.43249 42.42922,-1.91578 0,-1.05057 -25.81991,-36.26717 -57.32481,-78.257 l -57.28067,-76.34432 16.56203,-17.74578 c 57.37948,-61.46604 85.58804,-92.81085 84.50441,-93.89542 -0.68271,-0.6794 -6.66197,-1.05064 -13.28852,-0.80366 l -12.04539,0.43249 -43.24032,46.66194 c -23.78241,25.66539 -43.89514,46.66185 -44.69635,46.66185 -0.80044,0 -17.34139,-21.16947 -36.75635,-47.04505 l -35.30064,-47.04504 h -42.82448 c -23.55338,0 -42.82472,0.55594 -42.82472,1.26689 0,0.95794 70.27435,96.00277 77.66778,105.0565 8.00955,9.80139 29.87582,39.85772 30.01178,41.25132 0.0924,1.01967 -23.91835,27.8531 -53.36838,59.6707 -29.45068,31.8176 -53.7689,58.78388 -54.04114,59.93027 -0.3859,1.63773 2.28352,2.0703 12.25219,2.0703 h 12.74615 z m 51.98226,-81.76417 C 193.07948,194.72018 155.23893,143.77243 155.23893,143.3491 c 0,-0.43249 7.77744,-0.77259 17.28254,-0.77259 h 17.28295 l 82.54246,110.39287 c 45.39818,60.72133 83.44208,111.669 84.54174,113.21712 1.90655,2.68823 1.18981,2.81184 -15.73602,2.81184 h -17.7362 z"
+     id="path73" /></svg:svg>
