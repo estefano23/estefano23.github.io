@@ -25,6 +25,8 @@ const backToTopButton = document.querySelector(".back-to-top");
 let isBackToTopRendered = false;
 
 let alterStyles = (isBackToTopRendered) => {
+  if (!backToTopButton) return;
+
   backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
   backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
   backToTopButton.style.transform = isBackToTopRendered
